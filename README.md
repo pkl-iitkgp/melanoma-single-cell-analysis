@@ -177,6 +177,14 @@ conda activate melanoma-scrna-repro
 python -m pip install -r requirements.txt
 ```
 
+### Required input files
+
+Download the processed expression matrix and GEO family metadata from the [GSE72056 GEO record](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE72056). Confirm the correct files on the GEO page; this repository does not redistribute the source dataset.
+
+Place the processed expression matrix at `data/raw/GSE72056_melanoma_single_cell_revised_v2.txt.gz` and the uncompressed GEO family metadata at `data/metadata/GSE72056_family.soft`.
+
+The metadata parser expects an uncompressed `.soft` file. If you download `GSE72056_family.soft.gz`, decompress it before running the metadata scripts. Create required directories with `mkdir -p data/raw data/metadata data/processed`.
+
 ## Reproducibility
 
 The imported matrix contains 23,686 gene rows and 23,684 unique
