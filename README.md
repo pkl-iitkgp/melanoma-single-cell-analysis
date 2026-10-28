@@ -166,6 +166,17 @@ The analysis was developed with:
 The versions are recorded in requirements.txt. Reproduction may require
 additional dependencies used by individual scripts; the environment should
 be tested in a clean installation before claiming full reproducibility.
+
+### Environment setup
+
+Create a Python 3.11 environment and install the pinned dependencies:
+
+```bash
+conda create -n melanoma-scrna-repro python=3.11 -y
+conda activate melanoma-scrna-repro
+python -m pip install -r requirements.txt
+```
+
 ## Reproducibility
 
 The imported matrix contains 23,686 gene rows and 23,684 unique
