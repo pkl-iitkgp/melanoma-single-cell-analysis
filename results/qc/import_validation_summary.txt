@@ -1,0 +1,48 @@
+GSE72056 IMPORT VALIDATION
+================================
+Dimensions: 4645 cells x 23686 gene rows
+Expression matrix type: ndarray
+Expression dtype: float32
+Minimum expression: 0.000000
+Maximum expression: 15.923000
+
+Validation checks:
+[PASS] Expected cells (4645)
+[PASS] Expected gene rows (23686)
+[PASS] Unique cell identifiers
+[PASS] Unique AnnData gene names
+[PASS] All expression values finite
+[PASS] No negative expression values
+[PASS] Required annotations present
+
+Cells by malignant status:
+malignant_status
+non-malignant    3256
+malignant        1257
+unresolved        132
+
+Cells by tumor sample (first 10):
+tumor_sample
+79    896
+80    480
+89    475
+94    364
+88    351
+75    344
+60    226
+81    205
+72    181
+84    159
+
+Published cell-type annotations:
+published_cell_type
+T cell              2068
+not assigned        1758
+B cell               515
+macrophage           126
+endothelial cell      65
+CAF                   61
+NK cell               52
+
+Unique original gene symbols: 23684
+Repeated original gene-symbol rows: 2

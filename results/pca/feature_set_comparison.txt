@@ -1,0 +1,21 @@
+PCA FEATURE SET COMPARISON
+==========================
+Input: data/processed/GSE72056_melanoma_pca_input.h5ad
+Cells: 4645
+Original selected HVGs: 2000
+
+Set: A_all_2000_HVGs
+Genes: 2000
+Output: data/processed/GSE72056_melanoma_A_all_2000_HVGs.h5ad
+All expression values finite: True
+Any negative values: False
+Mean gene variance: 0.613941
+Median gene variance: 0.133666
+
+Set: B_HVGs_detected_in_at_least_5pct
+Genes: 564
+Output: data/processed/GSE72056_melanoma_B_HVGs_detected_in_at_least_5pct.h5ad
+All expression values finite: True
+Any negative values: False
+Mean gene variance: 1.780228
+Median gene variance: 1.335752

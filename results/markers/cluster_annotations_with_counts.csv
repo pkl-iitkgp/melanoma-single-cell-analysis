@@ -1,0 +1,21 @@
+cluster,working_annotation,confidence,supporting_evidence,n_cells,fraction_of_cells
+0,Cytotoxic T-cell-enriched,High,"CD8A, CD8B, NKG7, PRF1",971,0.2090419806243272
+1,CD4/T-cell-enriched,High,"CD4, IL7R, TCF7, CD3D",963,0.2073196986006458
+2,B cells,High,"MS4A1, CD79A, CD19, PAX5",561,0.1207750269106566
+3,Malignant melanoma-associated state,High,92.84% malignant; XAGE family,503,0.1082884822389666
+4,Malignant melanocytic-state candidate,Moderate,"80.59% malignant; DCT, TYRP1",237,0.0510226049515608
+5,Myeloid/macrophage-enriched,High,"CSF1R, CD163, FCGR1A, TYROBP",191,0.0411194833153929
+6,T-cell-enriched; subtype unresolved,Moderate,95.06% non-malignant; mixed marker profile,162,0.0348762109795479
+7,Malignant melanoma-associated state candidate,Moderate,"85.81% malignant; MAGEA4, TERT",155,0.0333692142088266
+8,Malignant-associated; state unresolved,Low,"94.03% malignant; OCA2, KIT",134,0.028848223896663
+9,Malignant-associated; state unresolved,Low,89.92% malignant; LY6K,129,0.0277717976318622
+10,Malignant melanoma-associated state candidate,Moderate,"98.41% malignant; MAGEC1, MAGEC2",126,0.0271259418729817
+11,Fibroblast/stromal-enriched; mixed,Moderate,"DPT, LUM, DCN; 37.07% published CAF",116,0.0249730893433799
+12,NK-cell-enriched,High,"GNLY, NCR1, FGFBP2, GZMB",93,0.020021528525296
+13,Proliferating T-cell-enriched,Moderate,"MKI67, TOP2A, CDK1; published T-cell-enriched",69,0.0148546824542518
+14,T-cell-enriched; subtype unresolved,Moderate,Published labels predominantly T cells; SNAR-rich,63,0.0135629709364908
+15,Endothelial cells,High,"CLDN5, CDH5, ERG, TIE1",60,0.0129171151776103
+16,Malignant-associated; state unresolved,Low,88.89% malignant; unusual marker profile,36,0.0077502691065662
+17,Endothelial cells,High,"CDH5, ESAM, ROBO4, PLVAP",32,0.0068891280947255
+18,Plasma-cell/B-lineage-enriched,Moderate,"MZB1, SDC1, IGJ, TNFRSF17",25,0.0053821313240043
+19,pDC-like candidate,Low,"LILRA4, PLD4, FLT3, DNASE1L3; only 19 cells",19,0.0040904198062432

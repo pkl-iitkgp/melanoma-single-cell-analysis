@@ -1,0 +1,27 @@
+# Large datasets and processed expression objects
+data/raw/*
+data/processed/*.h5ad
+*.h5ad
+
+# Large intermediate analysis outputs
+results/markers/leiden_r05_all_cluster_markers.csv
+
+# Python and Jupyter temporary files
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# Virtual environments and local configuration
+.venv/
+venv/
+.env
+*.log
+
+# OS/editor files
+.DS_Store
+Thumbs.db
+.vscode/
+
+# Downloaded GEO metadata source files
+data/metadata/*.soft
+data/metadata/*.soft.gz

@@ -1,0 +1,19 @@
+SCANPY HIGHLY VARIABLE GENE SELECTION
+==========================================
+Scanpy version: 1.11.5
+Input: data/processed/GSE72056_melanoma.h5ad
+Cells: 4645
+Genes before selection: 23686
+Selected HVGs: 2000
+Method: flavor='seurat'
+Requested number: 2000
+Expression transformation: original values retained
+Additional normalization/log transformation: none
+
+IMPORTANT INTERPRETATION
+HVGs reflect variation across the included cell population.
+Variation can reflect cell identity, malignant state, tumor of origin,
+and technical effects; HVG status alone does not establish biology.
+
+HVG table: results/qc/scanpy_hvg_top2000.csv
+Annotated object: data/processed/GSE72056_melanoma_hvg_annotated.h5ad

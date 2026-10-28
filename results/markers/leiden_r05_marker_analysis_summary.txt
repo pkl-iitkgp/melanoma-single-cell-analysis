@@ -1,0 +1,20 @@
+Leiden cluster marker analysis
+==============================
+Input: data/processed/GSE72056_melanoma.h5ad
+Cluster labels: results/clustering/A_all_2000_HVGs_leiden_r05.h5ad
+Test: Scanpy Wilcoxon rank-sum test
+Multiple testing correction: Benjamini-Hochberg
+Minimum detected cells per gene: 3
+Cells analysed: 4645
+Genes before filtering: 23686
+Genes after filtering: 22289
+Invalid-statistic rows excluded: 0
+Marker rows retained: 445780
+Clusters: 20
+Top markers per cluster exported: 25
+Runtime warnings recorded: 0
+
+Interpretation notes:
+- Markers are exploratory cluster-associated genes.
+- Cluster marker results do not by themselves prove cell identity.
+- The original expression object was not modified on disk.

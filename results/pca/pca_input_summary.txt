@@ -1,0 +1,17 @@
+PCA INPUT PREPARATION SUMMARY
+=============================
+Input file: data/processed/GSE72056_melanoma_hvg_annotated.h5ad
+Output file: data/processed/GSE72056_melanoma_pca_input.h5ad
+Cells: 4645
+Selected genes: 2000
+Expression dtype: float32
+Expression minimum: 0.000000
+Expression maximum: 15.923000
+All values finite: True
+Any negative values: False
+Zero fraction: 0.938615
+Additional normalization/log transformation: none
+Centering/scaling: not applied yet
+Malignant status categories: {'non-malignant': 3256, 'malignant': 1257, 'unresolved': 132}
+Published cell types: {'T cell': 2068, 'not assigned': 1758, 'B cell': 515, 'macrophage': 126, 'endothelial cell': 65, 'CAF': 61, 'NK cell': 52}
+Tumor samples: 19

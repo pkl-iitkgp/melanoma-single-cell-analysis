@@ -1,0 +1,8 @@
+published_cell_type,n_cells,median_genes,mean_genes,min_genes,max_genes
+T cell,2068,3629.0,3875.93,1370,12686
+not assigned,1758,5144.0,5305.42,1524,13276
+B cell,515,3346.0,3489.28,1969,7944
+macrophage,126,4714.5,4836.48,2042,8427
+endothelial cell,65,4751.0,4707.28,2713,6418
+CAF,61,4749.0,5290.36,1970,9578
+NK cell,52,3433.5,3596.54,2035,6021

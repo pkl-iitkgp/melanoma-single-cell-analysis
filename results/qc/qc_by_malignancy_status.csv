@@ -1,0 +1,4 @@
+malignant_status,n_cells,median_genes,mean_genes,min_genes,max_genes
+malignant,1257,5523.0,5662.57,1941,11432
+non-malignant,3256,3625.5,3926.31,1370,12686
+unresolved,132,4213.5,5019.07,1524,13276

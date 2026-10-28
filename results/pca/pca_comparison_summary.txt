@@ -1,0 +1,24 @@
+PCA COMPARISON
+==============
+Input values: processed GEO expression values
+Transformation: no additional log transform
+Scaling: gene-wise centering/scaling; max_value=10
+Principal components requested: 30
+
+Feature set: A_all_2000_HVGs
+Cells: 4645
+Genes: 2000
+PC1 variance explained: 4.2295%
+PC2 variance explained: 2.4813%
+First 10 PCs cumulative variance: 15.4973%
+First 30 PCs cumulative variance: 22.4256%
+PCA object: results/pca/A_all_2000_HVGs_pca.h5ad
+
+Feature set: B_HVGs_detected_in_at_least_5pct
+Cells: 4645
+Genes: 564
+PC1 variance explained: 7.2288%
+PC2 variance explained: 3.0311%
+First 10 PCs cumulative variance: 21.8360%
+First 30 PCs cumulative variance: 30.5494%
+PCA object: results/pca/B_HVGs_detected_in_at_least_5pct_pca.h5ad

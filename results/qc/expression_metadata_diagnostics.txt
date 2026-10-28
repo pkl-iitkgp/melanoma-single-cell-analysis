@@ -1,0 +1,16 @@
+Cells: 4645
+Genes: 23686
+Minimum expression: 0.0
+Maximum expression: 15.92300033569336
+Mean expression: 0.4644465744495392
+Median expression: 0.0
+Fraction exactly zero: 0.813087036557501
+
+Expression quantiles:
+[ 0.          0.          0.          0.          1.7845      6.19980001
+ 15.92300034]
+
+Observation columns:
+['tumor_sample', 'malignant_code', 'cell_type_code', 'malignant_status', 'published_cell_type']
+
+Original gene-symbol column exists: True

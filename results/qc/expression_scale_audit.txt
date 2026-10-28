@@ -1,0 +1,33 @@
+GSE72056 EXPRESSION-SCALE AUDIT
+========================================
+Audit date: 2026-10-10T17:59:06
+Input: data/processed/GSE72056_melanoma.h5ad
+Scanpy version: 1.11.5
+
+DATA DIMENSIONS
+Cells: 4645
+Genes: 23686
+Matrix type: ndarray
+Data dtype: float32
+
+NUMERICAL DIAGNOSTICS
+Total matrix entries: 110021470
+Finite entries: 110021470
+Non-finite entries: 0
+Minimum: 0.0
+Maximum: 15.92300033569336
+Zero fraction: 0.813087036557501
+Negative entries: 0
+Nonzero-entry median: 1.9880000352859497
+
+PROVENANCE AND INTERPRETATION
+GSE72056 is a Smart-seq2 melanoma single-cell RNA-seq dataset.
+Published methods describe expression as E = log2(TPM/10 + 1).
+The supplied matrix is treated as already transformed expression,
+not as raw UMI counts or raw gene counts.
+No normalization, log transformation, filtering, or scaling was applied.
+
+LIMITATIONS
+Numerical diagnostics alone cannot prove the transformation formula.
+The formula is based on published dataset methods and must be cited.
+The original matrix and AnnData object were not modified by this script.

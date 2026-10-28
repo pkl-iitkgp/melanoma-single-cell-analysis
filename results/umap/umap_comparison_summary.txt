@@ -1,0 +1,18 @@
+UMAP COMPARISON
+===============
+Input: saved PCA objects
+Neighbors: n_neighbors=15, n_pcs=30
+UMAP: min_dist=0.3, random_state=0
+No additional normalization or log transformation
+
+Feature set: A_all_2000_HVGs
+Cells: 4645
+Genes: 2000
+UMAP coordinates finite: True
+Saved object: results/umap/A_all_2000_HVGs_umap.h5ad
+
+Feature set: B_HVGs_detected_in_at_least_5pct
+Cells: 4645
+Genes: 564
+UMAP coordinates finite: True
+Saved object: results/umap/B_HVGs_detected_in_at_least_5pct_umap.h5ad
