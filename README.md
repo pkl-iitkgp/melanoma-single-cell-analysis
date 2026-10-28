@@ -153,6 +153,7 @@ single_cell_project/
 ```
 
 ## Software
+
 The analysis was developed with:
 - Python 3.11.17
 - Scanpy 1.11.5
@@ -166,6 +167,11 @@ The versions are recorded in requirements.txt. Reproduction may require
 additional dependencies used by individual scripts; the environment should
 be tested in a clean installation before claiming full reproducibility.
 ## Reproducibility
+
+The imported matrix contains 23,686 gene rows and 23,684 unique
+original gene symbols; two original gene symbols occur on repeated
+rows. The imported AnnData object uses unique gene identifiers.
+
 Analysis scripts are numbered to reflect the workflow stages. They should
 be run from the project root in the documented order, using the expected
 input and output paths. Large data objects are excluded from Git to keep
