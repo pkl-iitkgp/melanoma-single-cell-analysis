@@ -48,3 +48,6 @@ results/clustering/*_cluster_by_tumor_sample.csv
 # Locally generated GEO metadata tables
 data/metadata/GSE72056_cell_metadata_merged.csv
 data/metadata/GSE72056_sample_metadata.csv
+
+# Local R session history
+.Rhistory

@@ -150,6 +150,8 @@ single_cell_project/
 ├── .gitignore
 ├── requirements.txt
 └── README.md
+```
+
 ## Software
 The analysis was developed with:
 - Python 3.11.17
@@ -173,6 +175,22 @@ Before reproducing the workflow, obtain the source data from GEO and place
 it in the expected local path. Consult the scripts for exact input filenames
 and command details. Do not assume that every script can be rerun
 independently without outputs from earlier stages.
+
+### Script sequence
+
+Run scripts from the project root, in numbered order, after obtaining the required source files. Later scripts depend on intermediate outputs from earlier stages.
+
+| Scripts | Purpose |
+|---|---|
+| `01–06` | Import, validate, and inspect expression and QC |
+| `07–09` | Parse GEO metadata, validate metadata mapping, and audit expression scale |
+| `10–13` | Explore variability and select/compare gene features |
+| `14–20` | Prepare feature sets, compare PCA and UMAP, and perform Leiden clustering |
+| `21–25` | Identify marker genes, validate and review cluster annotations, and combine annotation tables |
+| `26–30` | Generate figures and audit tumor-sample composition |
+
+The script numbers describe the intended analysis stages, not a guarantee that all scripts can be run independently. Consult each script for its exact inputs and outputs.
+
 ## Citation
 Tirosh I, Izar B, Prakadan SM, et al. Dissecting the multicellular ecosystem
 of metastatic melanoma by single-cell RNA-seq. Science. 2016;352(6282):
