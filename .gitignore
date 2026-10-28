@@ -44,3 +44,7 @@ results/markers/set_A_leiden_r05_all_ranked_markers.csv
 results/clustering/*_cluster_by_malignant_status.csv
 results/clustering/*_cluster_by_published_cell_type.csv
 results/clustering/*_cluster_by_tumor_sample.csv
+
+# Locally generated GEO metadata tables
+data/metadata/GSE72056_cell_metadata_merged.csv
+data/metadata/GSE72056_sample_metadata.csv
