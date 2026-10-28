@@ -25,3 +25,22 @@ Thumbs.db
 # Downloaded GEO metadata source files
 data/metadata/*.soft
 data/metadata/*.soft.gz
+
+# Generated intermediate QC and feature-selection tables
+results/qc/cell_qc_metrics.csv
+results/qc/candidate_top_1000_*.csv
+results/qc/gene_selection_comparison_all.csv
+results/qc/gene_variability_all.csv
+results/qc/gene_variability_ranked.csv
+results/qc/scanpy_hvg_top2000.csv
+results/qc/top_1000_variable_genes.csv
+results/qc/feature_selection_precheck.txt
+results/pca/feature_set_gene_audit.csv
+
+# Full ranked marker tables
+results/markers/set_A_leiden_r05_all_ranked_markers.csv
+
+# Generated cluster-by-metadata breakdowns
+results/clustering/*_cluster_by_malignant_status.csv
+results/clustering/*_cluster_by_published_cell_type.csv
+results/clustering/*_cluster_by_tumor_sample.csv
