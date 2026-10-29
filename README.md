@@ -105,6 +105,32 @@ https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE72056
 The PCA variance figures are descriptive and do not by themselves establish
 that one feature set is biologically superior.
 
+## Selected figures
+
+### Leiden clustering
+
+![Leiden clustering of the 2,000-HVG feature set](figures/clustering/A_all_2000_HVGs_umap_leiden_r05_clean.png)
+
+The Leiden analysis at resolution 0.5 identified 20 clusters in the 2,000-HVG feature set. Cluster assignments are exploratory.
+
+### UMAP coloured by supplied malignant-status labels
+
+![UMAP coloured by supplied malignant-status labels](figures/umap/A_all_2000_HVGs_umap_malignant_status_clean.png)
+
+These labels are supplied dataset annotations and are not independent validation of malignancy.
+
+### UMAP coloured by published cell-type annotations
+
+![UMAP coloured by published cell-type annotations](figures/umap/A_all_2000_HVGs_umap_published_cell_type_clean.png)
+
+The plot shows the published annotations across the embedding; it should not be interpreted as definitive validation of every cluster identity.
+
+### Tumor-sample composition by cluster
+
+![Tumor-sample composition by cluster](figures/clustering/cluster_sample_composition.png)
+
+This audit highlights clusters with high contributions from individual tumor samples, which may reflect biological heterogeneity, sampling, technical effects, or a combination of factors.
+
 ## Important limitations
 
 - The input is a published processed expression matrix; raw-read alignment
